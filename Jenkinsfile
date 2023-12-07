@@ -10,15 +10,11 @@ pipeline {
       SONARQUBE_URL="http://sonarqube:9000"
       PROJECT_KEY="gomart-microservice"
       K8S_CONFIG_NAME="kubeconfig"
-      REGISTRY_CRED = 'docker_token'
+      REGISTRY_CRED = 'docker_creds'
       K8S_NAMESPACE = 'default'
       K8S_DEPLOYMENT_NAME = "order-microservice"
     }
-
-    tools {
-      go 'go_120'
-    }
-
+    
     agent any
     
     stages {
