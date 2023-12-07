@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/pb"
 	"google.golang.org/grpc"
 )
 

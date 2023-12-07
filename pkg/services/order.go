@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/client"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/models"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/client"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/models"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/pb"
 )
 
 type Server struct {

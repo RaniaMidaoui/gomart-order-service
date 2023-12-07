@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/client"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/config"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/pb"
-	service "github.com/RaniaMidaoui/goMart-order-service/pkg/services"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/client"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/config"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/pb"
+	service "github.com/RaniaMidaoui/gomart-order-service/pkg/services"
 	"google.golang.org/grpc"
 )
 

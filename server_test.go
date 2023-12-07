@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/client"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-order-service/pkg/pb"
-	productServices "github.com/RaniaMidaoui/goMart-order-service/pkg/product_services"
-	services "github.com/RaniaMidaoui/goMart-order-service/pkg/services"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/client"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-order-service/pkg/pb"
+	productServices "github.com/RaniaMidaoui/gomart-order-service/pkg/product_services"
+	services "github.com/RaniaMidaoui/gomart-order-service/pkg/services"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"

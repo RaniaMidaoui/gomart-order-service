@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/db"
-	"github.com/RaniaMidaoui/goMart-product-service/pkg/models"
-	pb "github.com/RaniaMidaoui/goMart-product-service/pkg/pb"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/db"
+	"github.com/RaniaMidaoui/gomart-product-service/pkg/models"
+	pb "github.com/RaniaMidaoui/gomart-product-service/pkg/pb"
 )
 
 type Server struct {

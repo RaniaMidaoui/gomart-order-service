@@ -1,4 +1,4 @@
-module github.com/RaniaMidaoui/goMart-order-service
+module github.com/RaniaMidaoui/gomart-order-service
 
 go 1.20
 

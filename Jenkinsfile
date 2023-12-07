@@ -2,13 +2,13 @@ pipeline {
 
     environment{
       REGISTRY = "raniamidaoui"
-      IMAGE_NAME = "goMart-order-service"
+      IMAGE_NAME = "gomart-order-service"
       IMAGE_VERSION = "latest"
       //IMAGE_TEST= "test-order-test"
       LOGIN=credentials("sonar_login")
       NETWORK="tools_jenkins"
       SONARQUBE_URL="http://sonarqube:9000"
-      PROJECT_KEY="goMart-microservice"
+      PROJECT_KEY="gomart-microservice"
       K8S_CONFIG_NAME="kubeconfig"
       REGISTRY_CRED = 'docker_token'
       K8S_NAMESPACE = 'default'

@@ -2,7 +2,7 @@ pipeline {
 
     environment{
       REGISTRY = "raniamidaoui"
-      IMAGE_NAME = "goMart-order-service"
+      IMAGE_NAME = "gomart-order-service"
       //IMAGE_TEST = "test-order-test"
       IMAGE_VERSION = "latest"
       IMAGE_TEST= "e-commerce-order-test"
