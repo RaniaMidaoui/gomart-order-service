@@ -9,7 +9,7 @@ pipeline {
       LOGIN=credentials("sonar_login")
       NETWORK="tools_jenkins"
       SONARQUBE_URL="http://sonarqube:9000"
-      PROJECT_KEY="e-commerce-microservice"
+      PROJECT_KEY="gomart-microservice"
       REGISTRY_CRED = 'docker_creds'
     }
 
